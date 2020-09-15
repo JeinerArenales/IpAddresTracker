@@ -1,0 +1,46 @@
+.header{
+    justify-content: center;
+    background-image: url(./../../images/pattern-bg.png);
+    height: 200px;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1{
+    font-weight: bold;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-right: 22px;
+    margin-left: 100px;
+
+}
+
+.headerSecond{
+    display: flex;
+    align-items: center;
+}
+
+.header input{
+    padding-left: 20px;
+    color: hsl(0, 0%, 59%);
+    margin: 15px 0px 10px 10px;
+    height: 30px;
+    width: 400px;
+    border: 0px solid white;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.header-button{
+    background-color: black;
+    color: white;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    height: 32px;
+    border: 0px solid white;
+    border-radius: 0px 10px 10px 0px;
+}

@@ -1,0 +1,49 @@
+.info{    background-color: white;
+    color:hsl(0, 0%, 59%);
+    height: 45%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    border: 0px solid;
+    border-radius: 10px;
+}
+
+.info h5{
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.info p{
+    margin-top: 0%;
+    padding-top: 10px;
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+ .info-ip{
+    border-right: 2px solid;
+    border-color:hsl(0, 0%, 59%);
+    width: 25%;
+}
+
+ .info-location{
+    border-right: 2px solid;
+    border-color:hsl(0, 0%, 59%);
+    width: 25%;
+}
+
+.info-time{
+    border-right: 2px solid;
+    border-color:hsl(0, 0%, 59%);
+    width: 25%;
+}
+
+.info-isp{
+    width: 25%;
+}
